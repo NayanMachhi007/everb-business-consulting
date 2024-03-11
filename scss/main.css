@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(/fonts/icofont.ttf);
+}
+.h1-heading {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  color: #333333;
+}
+
+.h2-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.9rem;
+  color: #333333;
+}
+
+.h3-heading {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */

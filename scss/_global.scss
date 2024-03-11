@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+@mixin h1-heading {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+  color: $black;
+}
+
+@mixin h2-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.9rem;
+  color: $black;
+}
+
+@mixin h3-heading {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: $white;
+  font-weight: 600;
+}
