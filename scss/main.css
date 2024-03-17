@@ -236,18 +236,18 @@ a {
 }
 
 .right-content-details {
-  height: 100vh;
   width: 100%;
   position: relative;
   right: 0;
+  top: 0;
 }
 .right-content-details .right-content-header {
   background: #ffffff;
   position: absolute;
   right: 0;
   transform: translatex(100%);
-  border: 1px solid black;
-  top: -21%;
+  border: 1px solid #fb7a00;
+  top: -120px;
   display: none;
   overflow: hidden;
   width: 40%;
