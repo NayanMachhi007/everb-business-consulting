@@ -397,6 +397,7 @@ a {
   color: #333333;
 }
 .banner .banner-header .video {
+  transition: 0.5s;
   position: absolute;
   top: 40%;
   left: 200px;
