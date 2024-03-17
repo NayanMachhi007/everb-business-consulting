@@ -1,0 +1,101 @@
+.banner {
+  height: 100vh;
+
+  .banner-header {
+    padding: 7rem 1rem;
+
+    h1 {
+      padding: 2rem 0;
+    }
+
+    p {
+      padding: 1rem 0;
+      font-size: 1.8rem;
+      width: 80%;
+    }
+
+    .banner-link {
+      padding: 8rem 0;
+
+      .bg-link-banner {
+        padding: 2rem 4rem;
+        background: $heat-wave;
+        color: $white;
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin: 0 4rem 0 0;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0px;
+          right: 0;
+          padding: 3rem 8rem;
+          //   background: #fb7a00;
+          border: 1px solid $heat-wave;
+          z-index: -1;
+          opacity: 0;
+          transition: 0.5s;
+        }
+        &:hover {
+          &::after {
+            opacity: 1;
+            top: -10px;
+            right: -10px;
+          }
+        }
+      }
+
+      i {
+        padding: 5px 0 0 9px;
+        color: $heat-wave;
+        font-size: 2.6rem;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &::after {
+            top:-9px;
+          padding: 3rem 3rem;
+          border: 1px solid $heat-wave;
+          content: "";
+          position: absolute;
+          left:-12px;
+          z-index: -1;
+        }
+
+        &:hover{
+            &::after{
+                border-radius: 50%;
+            }
+        }
+      }
+
+      .video-link{
+        margin:0 0 0 4rem;
+        font-size: 1.6rem;
+        color: $black;
+      }
+    }
+
+    .video{
+        position: absolute;
+        top:40%;
+        left:200px;
+        background:$white;
+        display: none;
+
+        .closevideo{
+            
+            position: absolute;
+            right: 0;
+            top:-20px;
+            i{
+                font-size:2rem;
+                color: $heat-wave;
+            }
+        }
+    }
+  }
+}
