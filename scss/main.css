@@ -15,6 +15,19 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Helvetica Neue;
   src: url(/fonts/icofont.ttf);
@@ -38,4 +51,126 @@ html {
   line-height: 2.6rem;
   color: #ffffff;
   font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.67%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.first-lvl-nav {
+  padding: 2rem 1rem;
+  background: #feebd8;
+}
+.first-lvl-nav .header-left-text ul {
+  align-items: center;
+}
+.first-lvl-nav .header-left-text ul li {
+  padding: 0 1rem;
+}
+.first-lvl-nav .header-left-text ul li i {
+  color: #4a4a4a;
+  font-size: 1.6rem;
+}
+.first-lvl-nav .header-left-text ul li a {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  padding: 0 1rem;
+  display: inline-block;
+}
+.first-lvl-nav .header-left-text ul li:hover i,
+.first-lvl-nav .header-left-text ul li:hover a {
+  color: #fb7a00;
+  transition: 0.5s;
+}
+.first-lvl-nav .header-right-text ul {
+  justify-content: flex-end;
+}
+.first-lvl-nav .header-right-text ul li {
+  padding: 0 1rem;
+}
+.first-lvl-nav .header-right-text ul li a i {
+  font-size: 1.6rem;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+.first-lvl-nav .header-right-text ul li a i::after {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #fb7a00;
+  content: "";
+  display: block;
+  top: -4px;
+  z-index: -1;
+  right: -6px;
+}
+.first-lvl-nav .header-right-text ul li a i:hover {
+  color: #fb7a00;
+}
+.first-lvl-nav .header-right-text ul li a i:hover::after {
+  background: #ffffff;
 }/*# sourceMappingURL=main.css.map */
