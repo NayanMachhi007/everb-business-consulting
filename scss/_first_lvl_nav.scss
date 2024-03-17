@@ -43,6 +43,7 @@
             color: $white;
             position: relative;
             z-index: 1;
+            transition: 0.5s;
 
             &::after {
               position: absolute;

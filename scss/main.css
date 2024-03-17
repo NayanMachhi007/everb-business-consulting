@@ -156,6 +156,7 @@ a {
   color: #ffffff;
   position: relative;
   z-index: 1;
+  transition: 0.5s;
 }
 .first-lvl-nav .header-right-text ul li a i::after {
   position: absolute;
@@ -173,4 +174,81 @@ a {
 }
 .first-lvl-nav .header-right-text ul li a i:hover::after {
   background: #ffffff;
+}
+
+.navbar {
+  padding: 1rem 1rem;
+}
+.navbar .logo {
+  width: 10rem;
+  height: 10rem;
+}
+.navbar .navbar-main {
+  height: 100%;
+}
+.navbar .navbar-main ul {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4rem;
+}
+.navbar .navbar-main ul li a {
+  display: inline-block;
+  padding: 4rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.navbar .navbar-main ul li a:hover {
+  color: #fb7a00;
+}
+.navbar .navbar-right {
+  height: 100%;
+}
+.navbar .navbar-right ul {
+  height: 100%;
+  align-items: center;
+}
+.navbar .navbar-right ul li a {
+  padding: 1rem 1rem;
+  font-size: 1.6rem;
+  border: 1px solid #fb7a00;
+  margin: 0 1rem;
+}
+.navbar .navbar-right ul li a i {
+  color: #fb7a00;
+}
+.navbar .navbar-right ul li .custom-round:hover {
+  border-radius: 50%;
+  background: #fb7a00;
+  transition: 0.5s;
+}
+.navbar .navbar-right ul li .custom-round:hover i {
+  color: #ffffff;
+}
+.navbar::after {
+  position: absolute;
+  width: 99%;
+  height: 1px;
+  background: #d1ad34;
+  content: "";
+  opacity: 0.2;
+}
+
+.right-content-details {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+.right-content-details .right-content-header {
+  position: absolute;
+  right: 0;
+  transform: translatex(100%);
+  border: 1px solid black;
+  height: 100vh;
+  top: -21%;
+  display: none;
+  overflow: hidden;
+  transition: 0.8s;
 }/*# sourceMappingURL=main.css.map */
