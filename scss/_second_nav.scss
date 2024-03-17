@@ -78,14 +78,103 @@
   right: 0;
 
   .right-content-header {
+    background: $white;
     position: absolute;
     right: 0;
     transform: translatex(100%);
     border: 1px solid black;
-    height:100vh;
-    top:-21%;
+    top: -21%;
     display: none;
     overflow: hidden;
-    transition: 0.8s;
+    width: 40%;
+    // height: 100vh;
+
+    .right-contet-header-sub {
+      justify-content: space-around;
+      align-items: center;
+
+      &::after {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 1px;
+        background: $quartz;
+        opacity: 0.5;
+        content: "";
+      }
+
+      .logo {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .close {
+        position: relative;
+        i {
+          font-size: 1.8rem;
+          color: $heat-wave;
+          cursor: pointer;
+          font-weight: 800;
+        }
+
+        &::after {
+          position: absolute;
+          width: 4rem;
+          height: 4rem;
+          background: $white;
+          content: "";
+          top: -12px;
+          left: -14px;
+          border-radius: 50%;
+          z-index: -1;
+        }
+      }
+    }
+    .headr-right-main-sub {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+
+     
+      .right-header-details-pages {
+        padding: 3rem 2rem;
+        width: 50%;
+
+        .image {
+          border: 1px solid black;
+          display: block;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .header-btn {
+          text-align: center;
+          padding: 2rem;
+          background: $white;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+          a {
+            font-size: 1.8rem;
+            color: $heat-wave;
+          }
+
+          &:hover {
+            background: $heat-wave;
+            transition: 0.5s;
+
+            a {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
   }
 }

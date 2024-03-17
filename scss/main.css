@@ -242,13 +242,89 @@ a {
   right: 0;
 }
 .right-content-details .right-content-header {
+  background: #ffffff;
   position: absolute;
   right: 0;
   transform: translatex(100%);
   border: 1px solid black;
-  height: 100vh;
   top: -21%;
   display: none;
   overflow: hidden;
-  transition: 0.8s;
+  width: 40%;
+}
+.right-content-details .right-content-header .right-contet-header-sub {
+  justify-content: space-around;
+  align-items: center;
+}
+.right-content-details .right-content-header .right-contet-header-sub::after {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 1px;
+  background: #4a4a4a;
+  opacity: 0.5;
+  content: "";
+}
+.right-content-details .right-content-header .right-contet-header-sub .logo {
+  width: 5rem;
+  height: 5rem;
+}
+.right-content-details .right-content-header .right-contet-header-sub .close {
+  position: relative;
+}
+.right-content-details .right-content-header .right-contet-header-sub .close i {
+  font-size: 1.8rem;
+  color: #fb7a00;
+  cursor: pointer;
+  font-weight: 800;
+}
+.right-content-details .right-content-header .right-contet-header-sub .close::after {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background: #ffffff;
+  content: "";
+  top: -12px;
+  left: -14px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.right-content-details .right-content-header .headr-right-main-sub {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages {
+  padding: 3rem 2rem;
+  width: 50%;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .image {
+  border: 1px solid black;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .header-btn {
+  text-align: center;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .header-btn a {
+  font-size: 1.8rem;
+  color: #fb7a00;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .header-btn:hover {
+  background: #fb7a00;
+  transition: 0.5s;
+}
+.right-content-details .right-content-header .headr-right-main-sub .right-header-details-pages .header-btn:hover a {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
