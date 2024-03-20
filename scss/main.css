@@ -53,73 +53,6 @@ a {
   font-weight: 600;
 }
 
-.container {
-  width: 100%;
-  max-width: 1280px;
-  margin: auto;
-}
-
-.container-fluid {
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 25%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 41.66%;
-}
-
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.67%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-.d-flex {
-  display: flex;
-}
-
 .first-lvl-nav {
   padding: 2rem 1rem;
   background: #feebd8;
@@ -176,63 +109,64 @@ a {
   background: #ffffff;
 }
 
-.navbar {
+.navigation-section {
   padding: 1rem 1rem;
 }
-.navbar .logo {
+.navigation-section .logo {
   width: 10rem;
   height: 10rem;
 }
-.navbar .navbar-main {
+.navigation-section .navbar-main {
   height: 100%;
 }
-.navbar .navbar-main ul {
+.navigation-section .navbar-main ul {
   height: 100%;
   align-items: center;
   justify-content: center;
   padding: 0 4rem;
 }
-.navbar .navbar-main ul li a {
+.navigation-section .navbar-main ul li a {
   display: inline-block;
   padding: 4rem 2rem;
   font-size: 1.6rem;
   font-weight: 400;
   color: #4a4a4a;
 }
-.navbar .navbar-main ul li a:hover {
+.navigation-section .navbar-main ul li a:hover {
   color: #fb7a00;
 }
-.navbar .navbar-right {
+.navigation-section .navbar-right {
   height: 100%;
 }
-.navbar .navbar-right ul {
+.navigation-section .navbar-right ul {
   height: 100%;
   align-items: center;
 }
-.navbar .navbar-right ul li a {
+.navigation-section .navbar-right ul li a {
   padding: 1rem 1rem;
   font-size: 1.6rem;
   border: 1px solid #fb7a00;
   margin: 0 1rem;
 }
-.navbar .navbar-right ul li a i {
+.navigation-section .navbar-right ul li a i {
   color: #fb7a00;
 }
-.navbar .navbar-right ul li .custom-round:hover {
+.navigation-section .navbar-right ul li .custom-round:hover {
   border-radius: 50%;
   background: #fb7a00;
   transition: 0.5s;
 }
-.navbar .navbar-right ul li .custom-round:hover i {
+.navigation-section .navbar-right ul li .custom-round:hover i {
   color: #ffffff;
 }
-.navbar::after {
+.navigation-section::after {
   position: absolute;
   width: 99%;
   height: 1px;
   background: #d1ad34;
   content: "";
   opacity: 0.2;
+  bottom: 0;
 }
 
 .right-content-details {
@@ -466,7 +400,6 @@ a {
   background: #ffffff;
   margin: auto;
   width: 80%;
-  height: 60vh;
   position: absolute;
   top: 40%;
   left: 10%;
