@@ -397,7 +397,6 @@ a {
   padding: 0 4rem;
   color: #ffffff;
   font-weight: 400;
-  width: 40%;
 }
 .feature-content-video .feature-text {
   background: #ffffff;
@@ -409,7 +408,6 @@ a {
   padding: 8rem 0;
 }
 .feature-content-video .feature-text h2 {
-  width: 80%;
   color: #333333;
   font-weight: 700;
 }
