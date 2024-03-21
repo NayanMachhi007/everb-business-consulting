@@ -178,14 +178,15 @@ a {
 }
 .right-content-details .right-content-header {
   background: #ffffff;
-  position: absolute;
-  right: 0;
+  position: relative;
   transform: translatex(100%);
   border: 1px solid #fb7a00;
   top: -120px;
   display: none;
   overflow: hidden;
-  width: 40%;
+  left: 92%;
+  width: 100%;
+  max-width: 500px;
 }
 .right-content-details .right-content-header .right-contet-header-sub {
   justify-content: space-around;

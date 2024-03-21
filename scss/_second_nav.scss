@@ -81,16 +81,16 @@
   top:0;
 
   .right-content-header {
-    background: $white;
-    position: absolute;
-    right: 0;
+     background: #ffffff;
+    position: relative;
     transform: translatex(100%);
-    border: 1px solid $heat-wave;
+    border: 1px solid #fb7a00;
     top: -120px;
     display: none;
     overflow: hidden;
-    width: 40%;
-    // height: 100vh;
+    left: 92%;
+    width: 100%;
+    max-width: 500px;
 
     .right-contet-header-sub {
       justify-content: space-around;
