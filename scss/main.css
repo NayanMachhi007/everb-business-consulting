@@ -111,6 +111,7 @@ a {
 
 .navigation-section {
   padding: 1rem 1rem;
+  position: relative;
 }
 .navigation-section .logo {
   width: 10rem;
@@ -268,6 +269,7 @@ a {
 }
 .banner .banner-header {
   padding: 7rem 1rem;
+  position: relative;
 }
 .banner .banner-header h1 {
   padding: 2rem 0;
@@ -334,10 +336,11 @@ a {
 .banner .banner-header .video {
   transition: 0.5s;
   position: absolute;
-  top: 40%;
+  top: 0%;
   left: 200px;
   background: #ffffff;
   display: none;
+  left: 33%;
 }
 .banner .banner-header .video .closevideo {
   position: absolute;
@@ -444,17 +447,23 @@ a {
   width: 100%;
   top: 20%;
   display: none;
+  left: 50%;
+  max-width: 900px;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .feature-content-video .feature-video-pop iframe {
   position: absolute;
   width: 80%;
   margin: auto;
   left: 10%;
+  height: 100%;
+  top: 74px;
 }
 .feature-content-video .feature-video-pop .closeicon {
   position: absolute;
   right: 10%;
-  top: -37px;
+  top: 10%;
 }
 .feature-content-video .feature-video-pop .closeicon i {
   font-size: 2rem;

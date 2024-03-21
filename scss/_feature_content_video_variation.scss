@@ -3,7 +3,7 @@
   .video-title-icon {
     position: relative;
     background: $elephant;
-    height:50rem;
+    height: 50rem;
     .video-icon {
       width: 100%;
       display: flex;
@@ -106,18 +106,24 @@
     width: 100%;
     top: 20%;
     display: none;
+    left: 50%;
+    max-width: 900px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
     iframe {
       position: absolute;
       width: 80%;
       margin: auto;
       left: 10%;
+      height: 100%;
+      top: 74px;
     }
 
     .closeicon {
       position: absolute;
       right: 10%;
-      top: -37px;
+      top:10%;
       i {
         font-size: 2rem;
         color: $white;
