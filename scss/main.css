@@ -171,6 +171,7 @@ a {
 }
 
 .right-content-details {
+  height: 0;
   width: 100%;
   position: relative;
   right: 0;
@@ -490,4 +491,15 @@ a {
   100% {
     border-radius: 55% 45% 38% 62%/52% 57% 43% 48%;
   }
+}
+.swiper {
+  height: 100vh;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
