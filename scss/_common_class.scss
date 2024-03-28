@@ -9,3 +9,7 @@
 .h3-heading {
   @include h3-heading;
 }
+
+.bg-color-review{
+  @include bg-primary-review
+}
