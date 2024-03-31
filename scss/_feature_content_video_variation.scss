@@ -1,56 +1,57 @@
 .feature-content-video {
-  position: relative;
-  .video-title-icon {
+  .feature-text-main {
     position: relative;
-    background: $elephant;
-    height: 50rem;
-    .video-icon {
-      width: 100%;
-      display: flex;
-      padding: 4rem;
+    .video-title-icon {
+      position: relative;
+      background: $elephant;
+      height: 50rem;
+      .video-icon {
+        width: 100%;
+        display: flex;
+        padding: 4rem;
 
-      i {
-        color: $white;
-        font-size: 2rem;
-        position: relative;
-        z-index: 1;
-        top: 19px;
+        i {
+          color: $white;
+          font-size: 2rem;
+          position: relative;
+          z-index: 1;
+          top: 19px;
 
-        &::after {
-          width: 4rem;
-          height: 4rem;
-          background: #fb7a00;
-          position: absolute;
-          content: "";
-          z-index: -1;
-          left: -12px;
-          top: -10px;
-          animation: pulse 2s ease-out infinite;
+          &::after {
+            width: 4rem;
+            height: 4rem;
+            background: #fb7a00;
+            position: absolute;
+            content: "";
+            z-index: -1;
+            left: -12px;
+            top: -10px;
+            animation: pulse 2s ease-out infinite;
 
-          @keyframes pulse {
-            0% {
-              -webkit-transform: scale(1);
-              transform: scale(1);
-              -webkit-filter: opacity(0.9);
-              filter: opacity(0.9);
-            }
-            100% {
-              -webkit-transform: scale(2);
-              transform: scale(2);
-              -webkit-filter: opacity(0);
-              filter: opacity(0);
+            @keyframes pulse {
+              0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-filter: opacity(0.9);
+                filter: opacity(0.9);
+              }
+              100% {
+                -webkit-transform: scale(2);
+                transform: scale(2);
+                -webkit-filter: opacity(0);
+                filter: opacity(0);
+              }
             }
           }
         }
       }
     }
-  }
 
-  h2 {
-    padding: 0 4rem;
-    color: $white;
-    font-weight: 400;
-   
+    h2 {
+      padding: 0 4rem;
+      color: $white;
+      font-weight: 400;
+    }
   }
 
   .feature-text {
@@ -63,7 +64,6 @@
     padding: 8rem 0;
 
     h2 {
-      
       color: $black;
       font-weight: 700;
     }
@@ -123,7 +123,7 @@
     .closeicon {
       position: absolute;
       right: 10%;
-      top:10%;
+      top: 10%;
       i {
         font-size: 2rem;
         color: $white;
