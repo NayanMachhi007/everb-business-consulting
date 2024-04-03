@@ -4,7 +4,6 @@ function videobtn() {
 
 function closevideo() {
   document.getElementById("videoid").style.display = "none";
-
   videoStopper("videoid");
 }
 
@@ -22,9 +21,12 @@ let videoStopper = function (id) {
   debugger;
   let containerElement = document.getElementById(id);
   let iframe_tag = containerElement.querySelector("iframe");
+  // let video_tag = containerElement.querySelector("video");
   if (iframe_tag) {
-    debugger;
     let iframeSrc = iframe_tag.src;
     iframe_tag.src = iframeSrc;
   }
+  // if (video_tag) {
+  //   video_tag.pause();
+  // }
 };
